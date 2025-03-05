@@ -59,3 +59,11 @@ function sorteioAmigos(){
         adicionaAmigo();
     }
 }
+
+//Essa função limpa tudo e começa um novo Sorteio.
+
+function resetarSorteio(){
+    listaDeNomes = [];
+    limparCampo();
+    limpaLista();
+}
